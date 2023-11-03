@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
                         For use in XCGLogger only at this point, untested as an independent library
                         DESC
 
-    spec.homepage = 'https://github.com/DaveWoodCom/XCGLogger'
+    spec.homepage = 'https://github.com/hoverinc/XCGLogger'
 
     spec.license = { :type => 'MIT', :file => 'LICENSE.txt' }
     spec.author = { 'Dave Wood' => 'cocoapods@cerebralgardens.com' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.platforms = { :ios => '8.0', :watchos => '2.0', :tvos => '9.0' }
     spec.requires_arc = true
 
-    spec.source = { :git => 'https://github.com/DaveWoodCom/XCGLogger.git', :tag => '7.0.1' }
+    spec.source = { :git => 'https://github.com/hoverinc/XCGLogger.git', :tag => '7.0.1' }
 
     spec.ios.deployment_target = '8.0'
     spec.osx.deployment_target = '10.10'
